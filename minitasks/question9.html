@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Default Values</title>
+</head>
+
+<body>
+    <form>
+
+        <h2>Default values form</h2>
+        <fieldset>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="abcd"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="12345"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="abc@gmail.com"><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" value="10"><br>
+            <label>Employee Type</label><br>
+            <input type="radio" id="Salaried" name="employeeType" value="Salaried" required checked>
+            <label for="Salaried">Salaried</label><br>
+            <input type="radio" id="OwnBusiness" name="employeeType" value="Own Business" required>
+            <label for="Own Business">Own Business</label><br><br>
+
+            <label>Skills</label><br>
+            <input type="checkbox" value="Jave">Java
+            <input type="checkbox" value="Python" checked>Python <br><br>
+
+            <label>Skills In Dropdown</label><br>
+            <select>
+                <option selected disabled>Select a skill</option>
+                <option>Java</option>
+                <option>Python</option>
+            </select><br><br>
+
+            <label>FeedBack</label><br>
+            <textarea rows="4" cols="25">Type Something</textarea><br><br>
+
+            <label>DOB</label>
+            <input type="date" value="2025-12-25"><br>
+        </fieldset><br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
