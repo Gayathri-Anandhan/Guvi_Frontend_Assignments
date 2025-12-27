@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #2f3e46;
+    display: flex;
+    justify-content: center;
+    padding:20px 0%;
+}
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+    p{
+        color: white;
+    }
+    h1{
+        color: rgb(255, 89, 89,1);;
+    }
+   
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+.box{
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+.box1{
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+.box2{
+    flex: 1;
+    display: block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+.orange{
+    background-color: #fca311;
+}
+.blue{
+    background-color: rgb(4, 176, 225);
+}
+.red{
+    background-color: rgb(255, 89, 89,1);
+}
+.full{
+    width: 100%;
+}
+.icon{
+    width: 70px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.icon1{
+    width: 150px;
+    height:70px;
+    margin-bottom: 10px;
+}
+.header-icon{
+    width: 80px;
+    height:70px;
+    margin-bottom: 10px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content-icon{
+    width: 50px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.content-icon1{
+    width: 100px;
+    height: 80px;
+    align-self: rights;
+}
+.top-row{
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.border{
+    display: block;
+    flex: 2;
+}
+.para-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.top-row1{
+    display: flex;
+    align-items: center;
+    gap: 8px;          /* small space after h2 */
+    justify-content: flex-start; /* or remove this line */
+}
